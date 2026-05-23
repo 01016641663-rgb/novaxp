@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="80" fill="#1A0000"></rect>
+
+  <circle cx="256" cy="256" r="185" stroke="#FF2A2A" stroke-width="18" opacity="0.9"></circle>
+  <circle cx="256" cy="256" r="165" stroke="#8B0000" stroke-width="6" opacity="0.7"></circle>
+
+  <path d="M120 360L180 140H240L180 360H120Z" fill="url(#grad1)" stroke="#FFD0D0" stroke-width="4"></path>
+
+  <path d="M240 360L300 140H380L320 360H240Z" fill="url(#grad2)" stroke="#FFD0D0" stroke-width="4"></path>
+
+  <path d="M160 330L360 120" stroke="url(#grad3)" stroke-width="18" stroke-linecap="round"></path>
+
+  <circle cx="392" cy="120" r="18" fill="#FFF5F5"></circle>
+  <circle cx="392" cy="120" r="36" fill="#FF2A2A" opacity="0.35"></circle>
+
+  <text x="256" y="440" text-anchor="middle" fill="#FF4A4A" font-size="42" font-family="Arial" font-weight="bold">
+    NOVAXP
+  </text>
+
+  <defs>
+    <linearGradient id="grad1" x1="120" y1="140" x2="240" y2="360">
+      <stop stop-color="#FF6A6A"></stop>
+      <stop offset="1" stop-color="#B30000"></stop>
+    </linearGradient>
+
+    <linearGradient id="grad2" x1="240" y1="140" x2="380" y2="360">
+      <stop stop-color="#FF3A3A"></stop>
+      <stop offset="1" stop-color="#700000"></stop>
+    </linearGradient>
+
+    <linearGradient id="grad3" x1="160" y1="330" x2="360" y2="120">
+      <stop stop-color="#FF6666"></stop>
+      <stop offset="1" stop-color="#FFFFFF"></stop>
+    </linearGradient>
+  </defs>
+</svg>
